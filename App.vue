@@ -1,10 +1,10 @@
 <template>
-  <h1>Listado de Post</h1>
-  <PostContainer/>
+  <h1>Contador</h1>
+  <CounterOption/>
 </template>
 
 <script lang="ts" setup>
-  import PostContainer from './components/PostContainer.vue';
+  import CounterOption from './components/CounterOption.vue';
 </script>
 
 <style>
