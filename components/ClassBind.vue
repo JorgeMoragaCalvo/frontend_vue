@@ -1,15 +1,13 @@
 <template>
-    <p v-bind:class="{
-        'danger': hasError
+    <p v-bind:style="{
+       backgroundColor: '#ccc', color: '#fff'
     }">El mensaje se ha enviado correctamente.</p>
 </template>
 
 <script lang="ts" setup>
-    let hasError = true;
+    
 </script>
 
 <style scoped>
-    .danger{
-        color: red;
-    }
+
 </style>
