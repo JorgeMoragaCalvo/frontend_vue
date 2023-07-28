@@ -4,15 +4,8 @@
     }">El mensaje se ha enviado correctamente.</p>
 </template>
 
-<script lang="ts">
-    import { defineComponent } from 'vue';
-    export default defineComponent ({
-        name: 'ClassBind',
-        setup(){
-            let hasError = true;
-            return {hasError}
-        }
-    })
+<script lang="ts" setup>
+    let hasError = true;
 </script>
 
 <style scoped>
