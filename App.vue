@@ -3,13 +3,15 @@
   <!--  
   <CounterComposition/>
   <CounterComposition/> cada componente es independiente -->
-  <ExampleFor/>
+  <!-- <ExampleFor/> -->
+  <ClassBind/>
 </template>
 
 <script lang="ts" setup>
   import ExampleSelective from './components/ExampleSelective.vue';
   import CounterComposition from './components/CounterComposition.vue';
   import ExampleFor from './components/ExampleFor.vue';
+  import ClassBind from './components/ClassBind.vue';
 </script>
 
 <style>
