@@ -4,7 +4,8 @@
   <CounterComposition/>
   <CounterComposition/> cada componente es independiente -->
   <!-- <ExampleFor/> -->
-  <ClassBind/>
+  <!-- <ClassBind/> -->
+  <ModelForm/>
 </template>
 
 <script lang="ts" setup>
@@ -12,6 +13,7 @@
   import CounterComposition from './components/CounterComposition.vue';
   import ExampleFor from './components/ExampleFor.vue';
   import ClassBind from './components/ClassBind.vue';
+  import ModelForm from './components/ModelForm.vue';
 </script>
 
 <style>
